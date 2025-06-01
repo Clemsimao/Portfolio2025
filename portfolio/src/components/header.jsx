@@ -38,7 +38,7 @@ const Header = () => {
                     transition={{duration: 0.6, delay: 1}}
                     href="#contact"
                     className="px-10 py-3 border border-white rounded-full
-                    bg-black text-white flex items-center gap-2
+                    bg-[#F0AD4E] text-white flex items-center gap-2
                     dark:bg-transparent">Contactez-moi </motion.a>
                     <motion.a 
                     initial={{y: 30, opacity: 0}}

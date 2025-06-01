@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 
 import Header from "../components/header";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
 
@@ -27,6 +28,7 @@ export default function Home() {
 
   return (
     <>
+    <Navbar isDarkMode={isDarkMode} />
     <Header isDarkMode={isDarkMode} />
     </>
   );
