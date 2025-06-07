@@ -16,7 +16,6 @@ Ce projet a pour but de me présenter en tant que développeur web et de mettre 
 ## 🛠️ Technologies utilisées
 
 - ⚡️ [NextJS](https://reactjs.org/)
-- 🟦 [TypeScript](https://www.typescriptlang.org/)
 - 🎨 [Tailwind CSS](https://tailwindcss.com/) 
 - ☁️ [Vercel](https://vercel.com/) 
 
