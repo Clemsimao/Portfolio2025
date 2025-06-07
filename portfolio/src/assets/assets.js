@@ -83,29 +83,29 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Mon portfolio',
+        description: 'NextJS, TailwindCSS',
         bgImage: work1,
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Site vitrine coffee-shop',
+        description: `Projet d'école, React, Psql, Vite`,
         bgImage: work2,
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Création API Pokédex',
+        description: 'EJS, Psql, Express, Sequelize',
         bgImage: work3,
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Création Kanban avec API',
+        description: 'JS, EJS, express, Vite',
         bgImage: work4,
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.web_icon, title: 'Mon portfolio', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
@@ -113,7 +113,7 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Langages', description: 'HTML, CSS, JS, React, Next, Angular' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Formations', description: "O'Clock Titre niv 6 (bac+3)" },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Formations', description: "O'Clock Titre CDA niv 6 (bac+3)" },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projets', description: "Projets d'école et projets réel" }
 ];
 
