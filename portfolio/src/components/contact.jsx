@@ -8,11 +8,11 @@ const Contact = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult("Envoi en cours....");
     const formData = new FormData(event.target);
 
     // Enter your web3 froms access key below
-    formData.append("access_key", "------Enter Access Key Here-------");
+    formData.append("access_key", "3bd57ba8-6b26-4d33-b3b4-08ae0578b004");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -22,10 +22,11 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult(`Merci pour votre message !
+      Je vous répondrai dans les plus brefs délais.`);
       event.target.reset();
     } else {
-      console.log("Error", data);
+      console.log("Erreur", data);
       setResult(data.message);
     }
   };
