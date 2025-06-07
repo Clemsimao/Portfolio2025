@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -6,10 +6,11 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
+import github from './github.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
+import postgresql from './postgresql.svg';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -35,9 +36,12 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import work1 from './work-1.png';
+import work2 from './work-2.png';
+import work3 from './work-3.png';
+import work4 from './work-4.png';
 
 export const assets = {
-    user_image,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -45,9 +49,10 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
-    firebase,
+    github,
     figma,
     git,
+    postgresql,
     mongodb,
     right_arrow_white,
     logo,
@@ -80,22 +85,22 @@ export const workData = [
     {
         title: 'Frontend project',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: work1,
     },
     {
         title: 'Geo based app',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: work2,
     },
     {
         title: 'Photography site',
         description: 'Web Design',
-        bgImage: '/work-3.png',
+        bgImage: work3,
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: work4,
     },
 ]
 
@@ -107,11 +112,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Langages', description: 'HTML, CSS, JS, React, Next, Angular' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Formations', description: "O'Clock Titre niv 6 (bac+3)" },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projets', description: "Projets d'école et projets réel" }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.figma, assets.postgresql, assets.mongodb, assets.github, assets.git
 ];

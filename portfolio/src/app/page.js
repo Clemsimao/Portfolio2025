@@ -1,9 +1,11 @@
 'use client'
 import { useEffect, useState } from "react";
-
+import About from "../components/about";
+import Contact from "../components/contact";
+import Footer from "../components/footer";
 import Header from "../components/header";
 import Navbar from "../components/navbar";
-import About from "../components/about"
+import Work from "../components/work";
 
 export default function Home() {
 
@@ -29,9 +31,13 @@ export default function Home() {
 
   return (
     <>
-    <Navbar isDarkMode={isDarkMode} />
+    <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
     <Header isDarkMode={isDarkMode} />
     <About isDarkMode={isDarkMode} />
+
+    <Work isDarkMode={isDarkMode} />
+    <Contact isDarkMode={isDarkMode} />
+    <Footer isDarkMode={isDarkMode} />
     </>
   );
 }
