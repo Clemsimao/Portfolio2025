@@ -37,7 +37,7 @@ const Work = ({ isDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-10 gap-5 dark:text-black'>
+        className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-10 gap-5'>
         {workData.map((project, index) => (
           <motion.div
             whileHover={{ scale: 1.05 }}
@@ -50,7 +50,7 @@ const Work = ({ isDarkMode }) => {
                 <h2 className='font-semibold'>{project.title}</h2>
                 <p className='text-sm text-gray-700'>{project.description}</p>
               </div>
-              <div className='bg-white border rounded-full border-black w-9 aspect-video flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-[#F0AD4E] transition'>
+              <div className='bg-white border rounded-full border-black w-9 aspect-video flex items-center justify-center shadow-[2px_2px_0_#000] hover:bg-[#F0AD4E] transition'>
                 <Image src={assets.send_icon} alt='send icon' className='w-5' />
               </div>
             </div>
