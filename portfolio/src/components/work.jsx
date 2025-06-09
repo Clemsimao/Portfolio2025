@@ -50,8 +50,13 @@ const Work = ({ isDarkMode }) => {
                 <h2 className='font-semibold'>{project.title}</h2>
                 <p className='text-sm text-gray-700'>{project.description}</p>
               </div>
-              <div className='bg-white border rounded-full border-black w-9 aspect-video flex items-center justify-center shadow-[2px_2px_0_#000] hover:bg-[#F0AD4E] transition'>
-                <Image src={assets.send_icon} alt='send icon' className='w-5' />
+              <div className='relative'>
+                <div className='bg-white border rounded-full border-black w-9 aspect-video flex items-center justify-center shadow-[2px_2px_0_#000] hover:bg-[#F0AD4E] transition group'>
+                  <Image src={assets.send_icon} alt='send icon' className='w-5' />
+                  <span className="absolute left-1/2 top-full mt-2 -translate-x-1/2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 pointer-events-none group-hover:opacity-100 transition">
+                    En cours de déploiement
+                  </span>
+                </div>
               </div>
             </div>
 
