@@ -9,6 +9,7 @@ import vscode from './vscode.png';
 import github from './github.png';
 import figma from './figma.png';
 import git from './git.png';
+import docker from './docker.png';
 import mongodb from './mongodb.png';
 import postgresql from './postgresql.svg';
 import right_arrow_white from './right-arrow-white.png';
@@ -51,6 +52,7 @@ export const assets = {
     vscode,
     github,
     figma,
+    docker,
     git,
     postgresql,
     mongodb,
@@ -118,5 +120,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.figma, assets.postgresql, assets.mongodb, assets.github, assets.git
+    assets.vscode, assets.figma, assets.postgresql, assets.mongodb, assets.docker, assets.github, assets.git
 ];
