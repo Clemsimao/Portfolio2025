@@ -42,7 +42,7 @@ const About = () => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'
-                >Passionné par le développement informatique, je suis en reconversion chez O’Clock pour devenir Concepteur Développeur d’Applications. A partir d'octobre je poursuis mes études avec un Master en développement Full Stack en alternance(2 semaines en entreprise / 1 semaine à l’école).</p>
+                >Passionné par le développement informatique, je suis en reconversion chez O’Clock pour devenir Concepteur Développeur d’Applications. A partir d'octobre je poursuis mes études avec un Master en développement Full Stack en alternance.</p>
 
                 <motion.ul
                 initial={{opacity: 0}}
