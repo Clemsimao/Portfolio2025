@@ -29,7 +29,7 @@ const Header = () => {
                 whileInView={{opacity: 1}}
                 transition={{duration: 0.6, delay: 0.7}}
                 className='max-w-2xl mx-auto front-Ovo'>
-                    En reconversion chez O’Clock, je poursuis mes études avec un Master en développement Full Stack chez Bordeaux Ynov Campus dès octobre 2025.
+                    En reconversion chez O’Clock, je poursuis mes études avec un Master en développement Full Stack chez My Digital School dès Septembre 2025.
                 </motion.p>
                 <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                     <motion.a
