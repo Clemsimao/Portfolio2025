@@ -42,7 +42,8 @@ const About = () => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'
-                >Passionné par le développement informatique, je suis en reconversion chez O’Clock pour devenir Concepteur Développeur d’Applications. A partir d'octobre je poursuis mes études avec un Master en développement Full Stack en alternance.</p>
+                >Passionné par le développement informatique, je poursuis actuellement un mastère Expert en Sécurité des Développements Informatiques à Live Campus, en alternance chez TotalEnergies Proxy Sud-Ouest.
+Issu d’une reconversion entamée chez O’Clock en tant que Concepteur Développeur d’Applications, je continue à renforcer mes compétences en développement et en cybersécurité pour concevoir des solutions fiables et performantes.</p>
 
                 <motion.ul
                 initial={{opacity: 0}}

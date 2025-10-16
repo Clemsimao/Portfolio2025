@@ -58,7 +58,9 @@ const Contact = () => {
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.7, duration: 0.5 }}
       className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-      Je serais ravi d’échanger avec vous. Que ce soit pour une opportunité d’alternance, une question ou un retour sur mon profil, n’hésitez pas à utiliser le formulaire ci-dessous.</motion.p>
+
+
+Je serais ravi d’échanger avec vous. Que ce soit pour une collaboration, une question ou un retour sur mon profil, n’hésitez pas à utiliser le formulaire ci-dessous.</motion.p>
 
       <motion.form
       initial={{ opacity: 0 }}
