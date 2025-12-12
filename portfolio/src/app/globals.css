@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
-*{
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
   font-family: Outfit;
+}
+
+body {
+  @apply dark:bg-black dark:text-white;
 }
