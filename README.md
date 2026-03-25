@@ -1,6 +1,6 @@
 # 🌐 Portfolio personnel – Clément Simao
 
-Bienvenue dans le dépôt de mon portfolio personnel, développé avec **NextJS** et **TypeScript**.  
+Bienvenue dans le dépôt de mon portfolio personnel, développé avec **NextJS** et **JavaScript**.  
 Ce projet a pour but de me présenter en tant que développeur web et de mettre en valeur mes réalisations, compétences et expériences.
 
 ---

@@ -11,8 +11,7 @@ const Contact = () => {
     setResult("Envoi en cours....");
     const formData = new FormData(event.target);
 
-    // Enter your web3 froms access key below
-    formData.append("access_key", "3bd57ba8-6b26-4d33-b3b4-08ae0578b004");
+    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
